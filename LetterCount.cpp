@@ -12,7 +12,7 @@ const char letter_t = 'T', letter_p = 'P', letter_d = 'D';
 
 int main (int argc, char* argv[])
 {
-    int num_a = 0;
+	int num_a = 0;
 	int num_e = 0;
 	int num_i = 0;
 	int num_o = 0;
@@ -46,11 +46,11 @@ int main (int argc, char* argv[])
 	}
 
     
-    // Headlines
-    cout << setfill('*');
-    cout << setw(61) << " " << endl;
-    cout << setw(47) << " Welcome to my Letter Count Program "  << setw(14)  << " " << endl;
-    cout << setw(61) << "\n" << endl;
+    	// Headlines
+   	cout << setfill('*');
+   	cout << setw(61) << " " << endl;
+   	cout << setw(47) << " Welcome to my Letter Count Program "  << setw(14)  << " " << endl;
+    	cout << setw(61) << "\n" << endl;
 
 	cout << "Analyzing file '" << argv[1] << "'...\n" << endl;
 
@@ -116,9 +116,9 @@ int main (int argc, char* argv[])
 	inFile.close();
 
 	// Execution stops
-    cout << "Press any key to continue . . ." << endl;
-    cin.ignore();
-    cin.get();
+    	cout << "Press any key to continue . . ." << endl;
+    	cin.ignore();
+    	cin.get();
 
-    return 0;
+    	return 0;
 }
