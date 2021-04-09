@@ -92,7 +92,6 @@ int main (int argc, char* argv[])
 			default:
 				break;
 		}
-		num = num_a + num_e + num_i + num_o + num_u;
 
 	}
 
@@ -101,6 +100,7 @@ int main (int argc, char* argv[])
 	string s1="The number of " ;
 	string s2 = "'s: ";
 	cout << setfill('.');
+	
 	int arr1[]={num_a,num_e,num_i,num_o,num_u,num_t,num_p,num_d};
 	char arr2[]={vowel_a,vowel_e,vowel_i,vowel_o,vowel_u,letter_t,letter_p,letter_d};
 	for (int i=0; i<=7;i++) 
