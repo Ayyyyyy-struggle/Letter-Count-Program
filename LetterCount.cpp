@@ -20,7 +20,7 @@ int main (int argc, char* argv[])
 	int num_t = 0;
 	int num_p = 0;
 	int num_d = 0;
-	int num ;
+	int num =0;
 	char character;
 	
 	
